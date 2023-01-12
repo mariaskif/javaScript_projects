@@ -1,0 +1,20 @@
+[
+    {
+        "title":"Why we use <br> element",
+        "answer_1":"to build fun",
+        "answer_2":"to make line bold",
+        "answer_3":"to make break point",
+        "answer_4":" to detect the width ",
+        "right_answer":"to make break point"
+
+    },
+    {
+        "title":"Why we use <h1> element",
+        "answer_1":"to build a div",
+        "answer_2":"to write the basic title",
+        "answer_3":"to make break point",
+        "answer_4":" to make color red",
+        "right_answer":"to write the basic title"
+
+    }
+]

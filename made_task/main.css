@@ -1,0 +1,84 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial, Tahoma, sans-serif;
+}
+.container{
+width: 500px;
+padding: 30px 30px;
+
+}
+.container .form{
+    display: flex;
+ justify-content: space-between;
+align-items: center; 
+ position: relative;
+background-color: rgba(247, 243, 243, 0.596);
+padding: 20px 80px;
+border-radius: 5px;
+margin-bottom: 20px;
+
+}
+.container .form  .add{
+    font-weight: bold;
+    font-size: 15px;
+   background-color: red;
+color: white;
+padding: 5px 8px;
+border-radius: 4px;
+border: none;
+margin-left: 20px;
+cursor: pointer;
+}
+.container .form  .input{
+
+border: none;
+border-radius:4px ;
+height: 20px;
+width: 200px;
+}
+.taskes{
+    background-color: rgba(247, 243, 243);
+    display: flex;
+ justify-content: space-between;
+align-items: center; 
+ position: relative;
+padding: 20px 80px;
+border-radius: 5px;
+margin-bottom: 20px;
+display: inline-block;
+
+}
+.taskes .task{
+    display: flex;
+margin-bottom:20px ;
+    cursor: pointer;
+    border-radius:4px ;
+    background-color:white; 
+    width: 420px;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+
+}
+.taskes .task:not(:last-child){
+margin-bottom: 15px;
+}
+.taskes .task:hover{
+    background-color: #f7f7f7;
+}
+.taskes .task.done{
+    opacity: 0.5;
+}
+.taskes .task span{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
+color: white;
+padding: 2px 6px;
+border-radius: 4px;
+cursor: pointer;
+}
